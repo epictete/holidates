@@ -1,0 +1,32 @@
+{
+  "name": "@epictete/holidates",
+  "version": "1.0.0",
+  "bin": {
+    "holidates": "./index.js"
+  },
+  "description": "CLI tool that returns a list of holidays dates for a specified country/year",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epictete/holidates.git"
+  },
+  "keywords": [
+    "npm",
+    "nader.date",
+    "CLI",
+    "tool"
+  ],
+  "author": "epictete",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epictete/holidates/issues"
+  },
+  "homepage": "https://github.com/epictete/holidates#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "country-list": "^2.2.0"
+  }
+}
