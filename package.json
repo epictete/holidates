@@ -7,7 +7,7 @@
   "description": "CLI tool that returns a list of holidays dates for a specified country/year",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node index.js"
   },
   "repository": {
     "type": "git",
